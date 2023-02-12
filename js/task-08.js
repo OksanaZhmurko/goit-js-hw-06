@@ -13,6 +13,7 @@ function handleSubmit(event) {
         return alert('Заполните пожалуйста все поля!')
     }
     const formData = { email: email.value, Password: password.value }
-} 
+    
     console.log(form);
     form.reset()
+}
